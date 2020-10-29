@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.working-graph {
+    background: url('img/background-img.png') no-repeat
+    center top/cover;
+    position: relative;
+
+}
+
+.working-graph-text {
+    display: inline-block;
+    width: 32%;
+    margin: 2% 20% 0% 20%;
+}
+
+.working-graph h1 {
+    font-family: 'Teko', sans-serif;
+    color: #f2f2f2;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.working-graph p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #cccccc;
+    font-size: 1.2em;
+}
+
+.monday, .tuesday, .wednesday, .tursday, .friday, .saturday, .sunday {
+    display: inline-block;
+    margin: 1em  25px 5em 25px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.sunday {
+    margin-bottom: 0;
+}
+
+.rider-img .rider, .rider-img .red-circle {
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
+
+.rider-img .rider {
+    width: 570px;
+    height: auto;
+    z-index: 5;
+}
+
+.rider-img .red-circle {
+    width: 430px;
+    height: auto;
+    z-index: 4;
+}
+
+
+

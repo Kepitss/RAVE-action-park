@@ -1,0 +1,38 @@
+
+.footer {
+    padding: 25px 20%;
+    background-color: #000000;
+    position: relative;
+}
+.footer p, .mini-navbar a {
+
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer p {
+    text-transform: uppercase;
+    color: #DBDBDB;
+    font-size: 0.9em;
+    width: 30%;
+}
+
+.footer .mini-navbar {
+    top: 20px;
+    right: 20%;
+    position: absolute;
+}
+
+.footer .mini-navbar a {
+    text-decoration: none;
+    padding: 0 5px;
+    font-size: 0.9em;
+    color: #DBDBDB;
+    letter-spacing: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.footer .mini-navbar a:hover {
+    color: #f2f2f2;
+}

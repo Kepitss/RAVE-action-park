@@ -1,0 +1,74 @@
+
+.img-gallery {
+    background-color: #1A1A1A;
+    position: relative;
+    padding: 3em 20%;
+    height: 50em;
+}
+
+.img-gallery .background-text {
+    color: #333333;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 21em;
+    position: absolute;
+    right: 20%;
+    top: 0;
+}
+
+.img-gallery h1 {
+    justify-content: space-around;
+    font-family: 'Teko', sans-serif;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    font-weight: 500;
+}
+
+.img-gallery hr {
+    border: 1.5px solid #b30000;
+    background-color: #b30000;
+    width: 5em;
+}
+
+/* Slider */
+.gallery-slider {
+    width: 100%;
+    margin: auto;
+    margin-top: 3em;
+    overflow: hidden;
+
+}
+
+.gallery-slide {
+    display: flex;
+    width: 100px;
+    height: auto;
+}
+
+.gallery-slide img {
+    object-fit: cover;
+    width: 575px;
+
+}
+
+.gallery-slider p {
+    position: absolute;
+    color: orangered;
+    font-size: 2em;
+    font-weight: 600;
+    z-index: 1;
+    top: 43%;
+    cursor: pointer;
+}
+
+#nextBtn {
+    right: 21%;
+
+}
+
+#prevBtn {
+    left: 21%;
+
+}

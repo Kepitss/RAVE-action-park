@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap');
+
+/* slider images */
+.slide:first-child {
+    background: url('slider-img/DSC02034-1.jpg') no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(2) {
+    background: url('slider-img/DSC02042.jpg') no-repeat
+      center top/cover;
+  }
+  .slide:nth-child(3) {
+    background: url('slider-img/DSC02065.jpg') no-repeat
+      center top/cover;
+  }
+  
+  /* slider code */
+  .slider {
+    width: 100vw;
+    height: 50em;
+    position: relative;
+    }
+    
+    .slide {
+      width: 100vw;
+      height: 50em;
+      object-fit: cover;
+      position: absolute;
+      opacity: 0;
+    }
+    
+    .slide.active {
+      opacity: 1;
+      transition: 0.2s ease-in-out;
+    }
+    
+    .slider-txt {
+      justify-content: space-around;
+      margin-left: 17%; /*  Center all text blocks*/
+    }
+
+    .rave, .rave-action-park, .park, .darba-laiki{
+      position: absolute;
+      font-family: 'Teko', sans-serif;
+    }
+
+    .rave {
+      font-size: 25em;
+      top: -5%;
+      color: rgba(255, 255, 255, 0.4);
+      font-weight: 600;
+    }
+  
+    .rave-action-park {
+      font-size: 10em;
+      top: 26%;
+      left: 33.4%;
+      color: #f2f2f2;
+      font-weight: 500;
+    }
+
+    .park {
+      font-size: 25em;
+      top: 30%;
+      color: rgba(255, 255, 255, 0.4);
+      font-weight: 600;
+    }
+
+    .darba-laiki {
+      outline: none;
+      border: none;
+      background-color: #b30000;
+      text-transform: uppercase;
+      color: #f2f2f2;
+      padding: 15px 40px; 
+      font-size: 0.8em;
+      font-weight: 700;
+      letter-spacing: 2px;
+      top: 49%;
+      transition: 0.3s ease-in-out;
+      font-family: sans-serif;
+    }
+
+    .darba-laiki:hover {
+      cursor: pointer;
+      background-color: #ff1a1a;
+    }
+
+    /* Slider img control */
+    @media (max-width: 1300px) {
+      .slider {
+        height: 47em;
+        }
+        
+        .slide {
+          height: 47em;
+        } 
+    }
+    
+  
+    @media (max-width: 920px) {
+      .slider {
+        height: 37em;
+        }
+        
+        .slide {
+          height: 37em;
+        }  
+    }
+
+    @media (max-width: 550px) {
+      .slider {
+        height: 49em;
+        }
+        
+        .slide {
+          height: 49em;
+        } 
+    }
+
+    @media (max-width: 500px) {
+      .slider {
+        height: 34em;
+        }
+        
+        .slide {
+          height: 34em;
+        } 
+    }
+
+    /* Slider text control */
+    @media (max-width: 1450px) {
+      .rave-action-park {
+        font-size: 8em;
+      }
+    }
+
+    @media (max-width: 1160px) {
+      .rave-action-park {
+        font-size: 7em;
+      }
+    }
+
+    
+
+     @media (max-width: 1025px) {
+      .slider-txt {
+        margin: 0 2em;
+      }
+
+      .rave {
+        font-size: 15em;
+        top: 48%;
+      }
+    
+      .rave-action-park {
+        font-size: 8em;
+        top: 26%;
+        left: 15%;
+      }
+  
+      .park {
+        font-size: 15em;
+        top: 48%;
+        left: 50%;
+      }
+     }
+
+     @media (max-width: 920px) {
+      .rave {
+        font-size: 12em;
+        top: 37%;
+      }
+    
+      .rave-action-park {
+        font-size: 7em;
+        top: 20%;
+        left: 15%;
+      }
+  
+      .park {
+        font-size: 12em;
+        top: 37%;
+        left: 50%;
+      }
+
+      .darba-laiki {
+        top: 33%;
+      }
+     }
+
+     @media (max-width: 800px) {
+      .rave {
+        font-size: 10em;
+        top: 40%;
+      }
+    
+      .rave-action-park {
+        font-size: 6em;
+        top: 15%;
+        left: 15%;
+      }
+  
+      .park {
+        font-size: 10em;
+        top: 40%;
+        left: 50%;
+      }
+     }
+
+     @media (max-width: 690px) {
+       .rave-action-park {
+         font-size: 5em;
+         top: 25%;
+       }
+     }
+
+     @media (max-width: 600px) {
+      .rave {
+        font-size: 8em;
+        top: 43%;
+      }
+    
+      .rave-action-park {
+        font-size: 7em;
+        top: 10%;
+        left: 50%;
+        line-height: 1em;
+      }
+  
+      .park {
+        font-size: 8em;
+        top: 43%;
+        left: 50%;
+      }
+     }
+
+     @media (max-width: 550px) {
+       .slider-txt {
+         margin: 0;
+       }
+      .rave {
+        font-size: 6em;
+        top: 46%;
+      }
+    
+      .rave-action-park {
+        font-size: 5em;
+        top: 30%;
+        left: 50%;
+        line-height: 0.8em;
+      }
+  
+      .park {
+        font-size: 6em;
+        top: 46%;
+        left: 50%;
+      }
+
+      .darba-laiki {
+        top: 40%;
+        padding: 15px 25px; 
+        font-size: 0.8em;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+     }
+
+     @media (max-width: 480px) {
+       .rave, .park {
+        top: 50%;
+       }
+     }
